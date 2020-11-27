@@ -38,7 +38,6 @@ import {V0_USER_MODELS} from './controllers/v0/model.index';
 
   // Start the Server
   app.listen( port, () => {
-    console.log( `server running ${config.url}` );
-    console.log( `press CTRL+C to stop server` );
+    console.log( `server is up and running on port: ${port}` );
   } );
 })();
